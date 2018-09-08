@@ -1,0 +1,17 @@
+{
+  "name": "mfphowmuchleft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "2.4.1",
+    "mfp": "git+ssh://git@github.com/elderbas/mfp.git",
+    "moment": "2.22.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
