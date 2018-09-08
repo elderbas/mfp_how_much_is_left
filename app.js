@@ -1,3 +1,5 @@
+#! /usr/local/bin/node
+
 const mfp = require('mfp');
 const moment = require('moment');
 const c = require('chalk');
