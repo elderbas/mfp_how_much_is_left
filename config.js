@@ -1,3 +1,5 @@
+// dates are in YYYY-MM-DD format
+
 module.exports = {
   startDate: '2018-09-01',
   userName: 'elderbas',
