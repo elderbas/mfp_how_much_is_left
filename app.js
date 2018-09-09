@@ -15,12 +15,12 @@ const cheatDays = config.cheatDays || [];
 getCalsFromPreviousDays()
 
 function getCalsFromPreviousDays() {
-  
-  
+
+
   mfp.fetchDateRange(
     config.userName,
     config.startDate,
-    yesterday,
+    config.endDate || yesterday,
     ['calories'],
     function(data) {
       const calsRolledOver = getCaloriesRolledOver(data.data);
